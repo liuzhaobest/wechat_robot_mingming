@@ -12,7 +12,7 @@ bot.file_helper.send('Hello you!1')
 """
 
 # define particular friend
-my_friend = bot.friends().search(u'学神牛')[0]
+my_friend = bot.friends().search(u'亲爱的')[0]
 #all_friend = bot.friends()
 
 
@@ -34,7 +34,9 @@ group = bot.groups().search('2018 Fall')
 def reply_my_friend(msg):
     if msg.text.lower() == '123':
         msg.sender.send('wuutt')
-        group[0].add_members(my_friend,use_invitation=True)
+        #print(group[0])
+        #group[0].add_members(my_friend,use_invitation=True)
+
         msg.sender.send('wuutt22')
     else:
         return u'收到: '+msg.text

@@ -1,0 +1,17 @@
+debug
+line 37
+something wrong with print(group[0])
+can not find or form this group?
+
+还不能实现自动拉群功能
+先测试能否找到群
+再测试怎么拉人
+
+
+拉群之后自动at加说话，只是at欢迎而已么？
+拉群之后专人at (我) 可以实现某些功能，t人之类的
+一些辅助的网站，比如租房，换钱，实时汇率啥的
+
+
+
+refactor the code
